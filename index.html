@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="/style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  </head>
+  <body>
+    <header>
+      <nav id="navbar">
+        <div class="nav-content">
+          <h1 class="logo">&lt;/&gt; My Portfolio</h1>
+          <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="hero">
+        <div class="hero-content">
+          <h1>&lt;Sriman Arya/&gt;</h1>
+          <p>Shh-ree-MA-ahn.</p>
+          <p>a coding addict.</p>
+          <a href="#contact" class="cta-button">Initialize Connection</a>
+        </div>
+      </section>
+      <script src="https://cdn.jsdelivr.net/npm/three@0.135.0/build/three.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/three@0.135.0/examples/js/controls/OrbitControls.js"></script>
+      <script type="module" src="main.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r136/examples/js/loaders/GLTFLoader.js"></script>
+      <div class="scroll-arrow">
+        <i class="fas fa-chevron-down"></i>
+      </div>      
+      <section id="projects" class="projects">
+        <h2>&lt;Projects/&gt;</h2>
+        <div class="projects-grid" id="projects-container">
+          <div class="project-card">
+            <img class="project-image" src="https://cloud-c7vqn74zt-hack-club-bot.vercel.app/0paperosbanner.png">
+            <div class="project-content">
+                <h1>PaperOS</h1>
+                <p>Is on the higher end of my projects.</p>
+                <a class="cta-button" href="https://TheSman122333.github.io/PaperOS">Project Demo</a>
+                <a class="cta-button" href="https://github.com/TheSman122333/paperos">Project Repo</a>
+            </div>
+          </div>
+        </div>
+        <div style="margin-bottom:5rem"></div>
+        <div class="projects-grid" id="projects-container">
+            <div class="project-card">
+              <img class="project-image" src="https://cloud-3qq31cuc2-hack-club-bot.vercel.app/0image.png">
+              <div class="project-content">
+                  <h1>RizzUp</h1>
+                  <p>Is the most rizzy project</p>
+                  <a class="cta-button" href="https://thesman122333.github.io/rizzup/">Project Demo</a>
+                  <a class="cta-button" href="https://github.com/TheSman122333/rizzup">Project Repo</a>
+              </div>
+            </div>
+          </div>
+          <div style="margin-bottom:5rem"></div>
+          <div class="projects-grid" id="projects-container">
+            <div class="project-card">
+              <img class="project-image" src="https://cloud-6b61kmm3s-hack-club-bot.vercel.app/0untitled-1.png">
+              <div class="project-content">
+                  <h1>DevWall</h1>
+                  <p>Is a clip farming project</p>
+                  <a class="cta-button" href="https://thesman122333.github.io/devwall/">Project Demo</a>
+                  <a class="cta-button" href="https://github.com/TheSman122333/devwall">Project Repo</a>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section id="skills" class="skills">
+        <h2>&lt;Skills/&gt;</h2>
+        <div class="skills-grid">
+          <div class="skill-category">
+            <h3>Languages</h3>
+            <ul>
+              <li>HTML</li>
+              <li>JS</li>
+              <li>CSS</li>
+              <li>LUA</li>
+              <li>MD</li>
+              <li>3d Modeling</li>
+              <li>Python</li>
+              <li>Excel, AI and Adobe suite</li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3>Internships</h3>
+            <ul>
+              <li>Summer internship + Full year job with wage @ UofM</li>
+              <li>Harvard AI/ML course</li>
+              <li>Participated in multiple hackathons, including High Seas Hack Club( which this is made for )</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact">
+        <h2>&lt;Contact/&gt;</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-terminal"></i>
+              <a href="mailto:sriman.aryas@gmail.com">sriman.aryas@gmail.com</a>
+            </div>
+            <div class="contact-item">
+              <i class="fab fa-github"></i>
+              <a href="https://github.com/TheSman122333" target="_blank">@TheSman122333</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&lt;/&gt; Secured by Github, and Made by Sriman | All rights reserved</p>
+    </footer>
+  </body>
+</html>
